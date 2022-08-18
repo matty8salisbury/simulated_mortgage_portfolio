@@ -15,3 +15,8 @@ TO RUN:
 clone the repo directly into the C drive
 Run in R, first part 1 and then part 2 concurrently in the same session
 
+NOTE:
+This will generate large datasets and, unadjusted will write them to the Outputs folder within the directory that will be created when cloning (SARC).
+To save elsewhere change the relevant parts of the code at the end of Part 1 and Part 2 to repoint to a desired directory.
+To control the size of the dataset use two parameters in Part A: n, which is calculated according to size of share of the mortgage market assumed (see code comments Part A line 54 for more detail, initial assumption 1.5% market share) and 'red_fac'.
+
